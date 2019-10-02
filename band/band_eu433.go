@@ -63,6 +63,7 @@ func newEU433Band(repeaterCompatible bool) (Band, error) {
 				5: {Modulation: LoRaModulation, SpreadFactor: 7, Bandwidth: 125, uplink: true, downlink: true},
 				6: {Modulation: LoRaModulation, SpreadFactor: 7, Bandwidth: 250, uplink: true, downlink: true},
 				7: {Modulation: FSKModulation, BitRate: 50000, uplink: true, downlink: true},
+				8: {Modulation: FSKModulation, BitRate: 200000, uplink: true, downlink: true},
 			},
 			rx1DataRateTable: map[int][]int{
 				0: {0, 0, 0, 0, 0, 0},
